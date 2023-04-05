@@ -1,0 +1,66 @@
+*{
+    background-image: url("foodBodyBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-bottom: 5px solid black;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #c8ff03;
+    background-image: none;
+}
+
+#mainHeader{
+    text-align: center;
+    background-image: none;
+}
+
+#tagline{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    background-image: none;
+    background-image: none;
+}
+
+.menu{
+    padding-top: 10px;
+    font-size: larger;
+}
+
+#menuText{
+    color:antiquewhite;
+    font-size: 35px;
+}
+
+.content{
+    background-image: url("foodBodyBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    color: #c8ff03;
+    padding-bottom: 15px;
+}
+
+ol{
+    color:#0bfff4;
+}
+
+.feedback{
+    color:antiquewhite;
+    font-size: 20px;
+}
+
+a{
+    font-size: larger;
+    color: antiquewhite;
+}

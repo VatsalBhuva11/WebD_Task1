@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body{
+            background-image: url("foodBodyBg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 25px;
+            color:aquamarine
+        }
+        h1{
+            font-size: 50px;
+            color: aliceblue;
+        }
+        .formDetails{
+            padding: 10px;
+        }
+        a{
+            color:rgb(255, 255, 108)
+        }
+
+    </style>
+</head>
+<body>
+    <div class="feedbackForm">
+        <h1>Feedback Time!</h1>
+        <div class="entries">
+            <form action="POST" method="post">
+                <div class="formDetails">
+                    <label for="name">Name: </label>
+                    <input type="text" id = "name">
+                </div>
+                <div class="formDetails">
+                    <label for="email">Email: </label>
+                    <input type="email" id = "email">
+                </div>
+                <div class="formDetails">
+                    <label for="phoneno">Phone Number: </label>
+                    <input type="number" id = "phoneno">
+                </div>
+                <div>
+                    <label for="feedbackText" class="formDetails">Feedback:</label>
+                    <textarea name="" id="" cols="30" rows="10" style="display: block;"></textarea>
+                </div>
+                <input type="submit" value="Submit!" style="font-size: 20px; display: block; margin-top: 10px;">
+                <a href="index.html">Go back to Menu!</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
